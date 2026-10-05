@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Ryza Mae's student programmer dashboard.">
+  <title>Dashboard | Ryza Mae Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body data-page="dashboard">
+  <header class="site-header">
+    <nav class="nav container" aria-label="Dashboard navigation">
+      <a class="brand" href="index.html">Ryza Mae<span>.</span></a>
+      <div class="dashboard-nav"><span class="signed-in-label">Student dashboard</span><button class="button button-small" id="logout-button" type="button">Log out</button></div>
+    </nav>
+  </header>
+  <main class="container dashboard-main">
+    <section class="dashboard-welcome">
+      <p class="eyebrow">Your portfolio at a glance</p>
+      <h1 id="welcome-message">Welcome!</h1>
+      <p>Here’s a quick summary of Ryza Mae’s programmer profile.</p>
+    </section>
+    <div class="dashboard-grid">
+      <section class="summary-card">
+        <p class="eyebrow">Profile</p><h2>Future Programmer</h2>
+        <p>Ryza Mae is a Bachelor of Science in Information Technology student interested in programming and web development.</p>
+      </section>
+      <section class="summary-card">
+        <p class="eyebrow">Education</p><h2>BS in Information Technology</h2>
+        <p>Nueva Vizcaya State University</p>
+      </section>
+      <section class="summary-card">
+        <p class="eyebrow">Projects</p><h2>3 portfolio projects</h2>
+        <p>Student Information System, Personal Portfolio Website, and To-Do List Application.</p>
+        <a class="text-link" href="index.html#projects">View projects →</a>
+      </section>
+    </div>
+  </main>
+  <footer class="site-footer"><div class="container"><p>Student portfolio project</p></div></footer>
+</body>
+</html>

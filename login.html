@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Demo login for Ryza Mae's programmer portfolio dashboard.">
+  <title>Login | Ryza Mae Portfolio</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body class="auth-page">
+  <header class="site-header"><nav class="nav container" aria-label="Main navigation"><a class="brand" href="index.html">Ryza Mae<span>.</span></a><a class="back-link" href="index.html">← Back to Portfolio</a></nav></header>
+  <main class="auth-main container">
+    <section class="auth-card" aria-labelledby="login-title">
+      <p class="eyebrow">Good to see you</p>
+      <h1 id="login-title">Portfolio Login</h1>
+      <p class="auth-intro">Sign in to view the student dashboard.</p>
+      <form id="login-form" novalidate>
+        <label for="username">Username</label>
+        <input id="username" name="username" type="text" autocomplete="username" required>
+        <label for="password">Password</label>
+        <input id="password" name="password" type="password" autocomplete="current-password" required>
+        <p id="login-message" class="form-message" role="alert" aria-live="polite"></p>
+        <button class="button button-full" type="submit">Login</button>
+      </form>
+      <aside class="demo-note"><strong>Frontend demo only</strong><br>Demo credentials: <code>admin</code> / <code>1234</code>. This browser-only example is not secure authentication.</aside>
+    </section>
+  </main>
+  <footer class="site-footer"><div class="container"><p>Student portfolio project</p></div></footer>
+</body>
+</html>
